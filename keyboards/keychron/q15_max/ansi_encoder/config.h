@@ -16,6 +16,9 @@
 
 #pragma once
 
+/* Reduce Layer Tap delay for faster layer switching */
+#define TAPPING_TERM 150
+
 #ifdef RGB_MATRIX_ENABLE
 /* RGB Matrix driver configuration */
 #    define DRIVER_COUNT 1
